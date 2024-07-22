@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <style>
+        .transition-height {
+            transition: max-height 0.3s ease-out;
+        }
+
+        .answer {
+            overflow: hidden;
+            max-height: 0;
+        }
+
+        .rotate-up {
+            transform: rotate(270);
+        }
+
+        .rotate-up {
+            transform: rotate(0);
+        }
+    </style>
+</head>
+
+<body class="bg-primary px-4 md:px-20 lg:px-40 text-white py-8 lg:py-20">
+    <!-- navigation bar -->
+    <div class="flex justify-between " id="">
+        <div class="" id="">
+            <img src="images/logo.png" alt="" class="w-16 md:w-20 lg:w-28" id="">
+        </div>
+        <div class="flex " id="">
+
+            <a href=""
+                class="bg-secondary font-inter font-bold text-2xl lg:text-3xl px-4 py-2 rounded flex items-center"
+                id="">
+                <svg class="inline w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16" viewBox="0 0 42 42" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M38.374 20.3122C38.0205 19.4582 37.2628 19.2535 36.75 19.2045V14C36.75 12.0697 35.1803 10.5 33.25 10.5H22.75V8.0675C23.2838 7.588 23.625 6.8985 23.625 6.125C23.625 5.42881 23.3485 4.76113 22.8562 4.26884C22.3639 3.77656 21.6962 3.5 21 3.5C20.3039 3.5 19.6362 3.77656 19.1439 4.26884C18.6516 4.76113 18.375 5.42881 18.375 6.125C18.375 6.8985 18.7163 7.588 19.25 8.0675V10.5H8.75004C6.81979 10.5 5.25004 12.0697 5.25004 14V19.2447L5.10654 19.2552C4.6655 19.2871 4.25285 19.4847 3.95157 19.8084C3.6503 20.1321 3.48272 20.5578 3.48254 21V24.5C3.48254 24.9641 3.66692 25.4092 3.99511 25.7374C4.3233 26.0656 4.76842 26.25 5.23254 26.25H5.25004V35C5.25004 36.9302 6.81979 38.5 8.75004 38.5H33.25C35.1803 38.5 36.75 36.9302 36.75 35V26.25C37.2142 26.25 37.6593 26.0656 37.9875 25.7374C38.3157 25.4092 38.5 24.9641 38.5 24.5V21.1085C38.5202 20.8369 38.4771 20.5643 38.374 20.3122ZM8.75004 35V14H33.25L33.2518 20.993L33.25 21V24.5L33.2518 24.5087L33.2535 35H8.75004Z"
+                        fill="white" />
+                    <path
+                        d="M14.875 24.5C16.3247 24.5 17.5 22.933 17.5 21C17.5 19.067 16.3247 17.5 14.875 17.5C13.4253 17.5 12.25 19.067 12.25 21C12.25 22.933 13.4253 24.5 14.875 24.5Z"
+                        fill="white" />
+                    <path
+                        d="M27.125 24.5C28.5747 24.5 29.75 22.933 29.75 21C29.75 19.067 28.5747 17.5 27.125 17.5C25.6753 17.5 24.5 19.067 24.5 21C24.5 22.933 25.6753 24.5 27.125 24.5Z"
+                        fill="white" />
+                    <path d="M14 25H28V28.5H14V25Z" fill="white" />
+                </svg>
+                <p class="inline ml-3" id="">
+
+                    Own a Telegram Bot
+                </p>
+            </a>
+        </div>
+    </div>
+    <!-- Hero Text  -->
+    <div class="" id="">
+        <p class="text-white text-5xl md:text-6xl lg:text-7xl leading-normal lg:leading-relaxed font-suez text-center py-10"
+            id="">
+
+            Boost Your Business with a <span class="text-secondary" id="">Custom Telegram Bot</span> Developed by <span
+                class="text-secondary" id="">Experts</span>
+        </p>
+
+        <p class="text-center font-inter text-2xl lg:text-3xl text-white" id="">With more than 1 billion users on
+            telegram, Give
+            your business
+            a wider reach with a
+            custom telegram bot that transform
+            telegram to a digital shop for you</p>
+        <div class="mx-auto w-max py-8 " id="">
+            <svg class="" width="232" height="40" viewBox="0 0 232 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M20 28.7833L30.3 35L27.5667 23.2833L36.6667 15.4L24.6834 14.3833L20 3.33333L15.3167 14.3833L3.33337 15.4L12.4334 23.2833L9.70004 35L20 28.7833Z"
+                    fill="#FFB840" />
+                <path
+                    d="M68 28.7833L78.3 35L75.5667 23.2833L84.6667 15.4L72.6834 14.3833L68 3.33333L63.3167 14.3833L51.3334 15.4L60.4334 23.2833L57.7 35L68 28.7833Z"
+                    fill="#FFB840" />
+                <path
+                    d="M116 28.7833L126.3 35L123.567 23.2833L132.667 15.4L120.683 14.3833L116 3.33333L111.317 14.3833L99.3334 15.4L108.433 23.2833L105.7 35L116 28.7833Z"
+                    fill="#FFB840" />
+                <path
+                    d="M164 28.7833L174.3 35L171.567 23.2833L180.667 15.4L168.683 14.3833L164 3.33333L159.317 14.3833L147.333 15.4L156.433 23.2833L153.7 35L164 28.7833Z"
+                    fill="#FFB840" />
+                <path
+                    d="M212 28.7833L222.3 35L219.567 23.2833L228.667 15.4L216.683 14.3833L212 3.33333L207.317 14.3833L195.333 15.4L204.433 23.2833L201.7 35L212 28.7833Z"
+                    fill="#FFB840" />
+            </svg>
+            <p class="text-xl text-center" id="">Trusted by <span class="text-secondary" id="">1000+</span> Businesses
+            </p>
+
+        </div>
+        <div class="mx-auto w-11/12 md:w-8/12" id="">
+            <img src="images/mockup2.png" alt="">
+        </div>
+
+        <div class="flex justify-center py-7" id="">
+            <a href=""
+                class="px-4 md:px-7 lg:px-10 py-3 lg:py-4 bg-secondary rounded-md text-2xl lg:text-4xl rounded-mx-4 md: mr-8 font-bold"
+                id="">
+                <svg class="inline  w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16" viewBox="0 0 56 56" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_168_235)">
+                        <path
+                            d="M42.8739 30.3856C40.3569 30.3856 37.9976 29.3189 35.853 27.5831L36.3737 25.1256L36.392 25.0297C36.8648 22.4191 38.3311 18.0408 42.8761 18.0408C44.5131 18.042 46.0826 18.6928 47.2401 19.8503C48.3976 21.0078 49.0484 22.5774 49.0497 24.2143C49.0466 25.8509 48.3949 27.4195 47.2372 28.5763C46.0795 29.7331 44.5104 30.3837 42.8739 30.3856ZM42.8739 11.7942C37.0749 11.7942 32.5732 15.5604 30.7461 21.7659C27.9597 17.5772 25.8401 12.5479 24.6091 8.30889H18.3602V24.5523C18.359 26.095 17.7458 27.5742 16.6552 28.6652C15.5646 29.7563 14.0857 30.37 12.543 30.3718C11.0011 30.3688 9.52337 29.7545 8.43374 28.6636C7.34411 27.5727 6.73154 26.0942 6.73033 24.5523V8.30889H0.481445V24.5523C0.481445 31.2078 5.89441 36.6641 12.543 36.6641C19.1961 36.6641 24.6091 31.2078 24.6091 24.5523V21.8344C25.8173 24.3628 27.3087 26.9254 29.1176 29.191L25.2966 47.1726H31.6848L34.4552 34.1312C36.883 35.682 39.674 36.6641 42.8739 36.6641C49.7257 36.6641 55.2963 31.0639 55.2963 24.2166C55.2963 17.3648 49.7257 11.7942 42.8739 11.7942Z"
+                            fill="white" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_168_235">
+                            <rect width="54.8148" height="54.8148" fill="white"
+                                transform="translate(0.481445 0.333336)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+
+                Hire on Upwork
+            </a>
+            <a href=""
+                class="px-4 md:px-7 lg:px-10 py-3 lg:py-4 bg-fourth text-2xl md:text-3xl lg:text-4xl font-bold rounded-md mx-4 md:mxl-8"
+                id="">
+                <svg class="inline w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16" viewBox="0 0 51 50" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M38.7335 41.0128V41.0087L38.7705 40.9203L44.9351 9.84028V9.74162C44.9351 8.96667 44.6473 8.29039 44.0265 7.88545C43.4818 7.52984 42.8548 7.50517 42.415 7.53806C42.0055 7.57509 41.6015 7.65783 41.2104 7.78473C41.0436 7.83849 40.8791 7.89883 40.7171 7.96562L40.6903 7.97589L6.32147 21.4583L6.31119 21.4624C6.2067 21.4981 6.10443 21.5399 6.00491 21.5878C5.76048 21.6976 5.52597 21.8283 5.30397 21.9783C4.86202 22.2826 4.0213 22.9979 4.16314 24.1326C4.2803 25.074 4.9278 25.6701 5.36564 25.9805C5.62407 26.1616 5.90192 26.3133 6.19402 26.4327L6.2598 26.4615L6.28036 26.4677L6.29475 26.4738L12.3093 28.4986C12.2887 28.8747 12.3257 29.2591 12.4265 29.6394L15.4379 41.0662C15.6024 41.6891 15.9578 42.2448 16.4544 42.6553C16.9509 43.0658 17.5635 43.3104 18.2062 43.3549C18.8489 43.3993 19.4894 43.2413 20.0377 42.9031C20.586 42.5649 21.0146 42.0634 21.2633 41.4691L25.9664 36.4412L34.0427 42.6326L34.1578 42.6819C34.8916 43.0026 35.5761 43.1033 36.2031 43.019C36.83 42.9327 37.3275 42.6696 37.7016 42.3715C38.1343 42.0207 38.4791 41.5737 38.7088 41.0662L38.7252 41.0313L38.7314 41.019L38.7335 41.0128ZM15.407 28.8542C15.3737 28.7274 15.3816 28.5933 15.4297 28.4713C15.4777 28.3493 15.5634 28.2458 15.6742 28.1758L36.0674 15.2258C36.0674 15.2258 37.2678 14.4961 37.2247 15.2258C37.2247 15.2258 37.4385 15.3533 36.7951 15.9514C36.1866 16.5208 22.2602 29.9662 20.8501 31.327C20.7717 31.4031 20.7168 31.5002 20.6919 31.6066L18.4184 40.281L15.407 28.8542Z"
+                        fill="white" />
+                </svg>
+
+                Chat with Developer
+            </a>
+        </div>
+
+    </div>
+
+
+    <!-- section 2 -->
+    <div class="" id="">
+        <div class="text-4xl lg:text-5xl font-suez text-center mt-20" id="">
+            Why you need a <span class="text-secondary" id="">Custom Telegram Bot</span>
+        </div>
+
+        <div class="xl:w-10/12 mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-10">
+                <!-- Expand your Reach -->
+                <div class="bg-gray-700 rounded-lg  shadow-md p-6 w-full md:w-1/3 text-center">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-12 h-12 text-golden-yellow" fill="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-3xl font-suez text-secondary mb-2">Expand your Reach</h3>
+                    <p class="text-white text-xl lg:text-2xl">Reach a wider audience of 1 billion people. Apps like
+                        Tapswap raised
+                        100
+                        million
+                        users in two months on Telegram.</p>
+                </div>
+                <!-- Integration -->
+                <div class="bg-gray-700 rounded-lg  shadow-md p-6 w-full md:w-1/3 text-center">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-12 h-12 text-golden-yellow" fill="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 3.07 1.63 5.74 4.22 7.18C9.36 17.35 8 19.83 8 23h2c0-2.37 1.19-4.44 3-5.75C15.81 18.56 17 20.63 17 23h2c0-3.17-1.36-5.65-3.22-6.82C17.37 14.74 19 12.07 19 9c0-3.87-3.13-7-7-7zm0 2c2.76 0 5 2.24 5 5s-2.24 5-5 5-5-2.24-5-5 2.24-5 5-5zm0 9.5c1.38 0 2.5-1.12 2.5-2.5S13.38 8.5 12 8.5s-2.5 1.12-2.5 2.5 1.12 2.5 2.5 2.5z" />
+                        </svg>
+                    </div>
+                    <h3 class=" font-suez text-secondary mb-2 text-3xl">Integration</h3>
+                    <p class="text-white text-xl lg:text-2xl">You can also integrate your website into your Telegram bot
+                        as a mini
+                        app
+                        just like
+                        Hamster Kombat.</p>
+                </div>
+
+                <!-- Ease of Access -->
+                <div class="bg-gray-700  rounded-lg  shadow-md p-6 w-full md:w-1/3 text-center">
+                    <div class="flex justify-center mb-4">
+                        <svg class="w-12 h-12 text-golden-yellow" fill="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 2C8.13 2 5 5.13 5 9c0 3.07 1.63 5.74 4.22 7.18C9.36 17.35 8 19.83 8 23h2c0-2.37 1.19-4.44 3-5.75C15.81 18.56 17 20.63 17 23h2c0-3.17-1.36-5.65-3.22-6.82C17.37 14.74 19 12.07 19 9c0-3.87-3.13-7-7-7zm0 2c2.76 0 5 2.24 5 5s-2.24 5-5 5-5-2.24-5-5 2.24-5 5-5zm0 9.5c1.38 0 2.5-1.12 2.5-2.5S13.38 8.5 12 8.5s-2.5 1.12-2.5 2.5 1.12 2.5 2.5 2.5z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-3xl text-secondary font-suez mb-2 ">Ease of Access</h3>
+                    <p class="text-white text-xl lg:text-2xl">Your customers can access your products with ease all on
+                        their social
+                        app without having to visit or remember a url.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- section 3 -->
+    <section class="py-12">
+        <div class="xl:w-9/12 mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-suez text-center  mb-10">Pricing and <span class="text-secondary"
+                    id="">Features</span></h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-10 py-10">
+                <!-- Standard Plan -->
+                <div
+                    class="bg-gray-800 rounded-md p-8 w-full md:w-1/3 border-2 border-secondary px-4 hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-3xl font-suez mb-4 text-center pb-2">Standard
+                    </h3>
+                    <hr class="border-b border-secondary " id="">
+                    <p class="text-center text-6xl font-suez text-secondary my-6">$80</p>
+                    <div class="text-center py-6">
+                        <button
+                            class="w-full text-white text-lg py-2 px-6 rounded-md font-semibold hover:bg-secondary bg-transparent border-secondary border transition-colors duration-300">Get
+                            Your Custom Bot Now</button>
+                    </div>
+                    <ul class="mb-6 space-y-3 font-inter">
+                        <li>✔ Simple Chatbots</li>
+                        <li>✔ Data Collection Bots</li>
+                        <li>✔ Group Helpers</li>
+
+                        <li class="font-semibold text-2xl mt-6">Bonus *</li>
+                        <li>✔ Free Analysis Dashboard</li>
+                    </ul>
+                    <p class="text-center text-sm mb-6 pt-2">2 days delivery</p>
+                </div>
+                <!-- Premium Plan -->
+                <div
+                    class="bg-gray-900 rounded-md p-8 w-full md:w-1/3 border-2 border-secondary px-4 hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-3xl font-suez mb-4 text-center pb-2">Premium
+                    </h3>
+                    <hr class="border-b border-secondary " id="">
+                    <p class="text-center text-6xl font-suez text-secondary my-6">$150</p>
+                    <div class="text-center py-6">
+                        <button
+                            class="w-full text-white text-lg py-2 px-6 rounded-md font-semibold hover:bg-secondary bg-transparent border-secondary border transition-colors duration-300">Get
+                            Your Custom Bot Now</button>
+                    </div>
+                    <ul class="mb-6 space-y-3 font-inter">
+                        <li>✔ Enterprise Chatbots</li>
+                        <li>✔ Crypto Airdrop Bot</li>
+                        <li>✔ Group Helper Bot</li>
+                        <li>✔ Captcha Integration</li>
+                        <li>✔ Website Integration</li>
+
+                        <li class="font-semibold text-2xl mt-6">Bonus *</li>
+                        <li>✔ Free Analysis Dashboard</li>
+                    </ul>
+                    <p class="text-center text-sm mb-6 pt-2">4 days delivery</p>
+                </div>
+                <!-- Enterprise Plan -->
+                <div
+                    class="bg-gray-800 rounded-md p-8 w-full md:w-1/3 border-2 border-secondary px-4 hover:scale-105 transition-transform duration-300">
+                    <h3 class="text-3xl font-suez mb-4 text-center pb-2">Enterprise
+                    </h3>
+                    <hr class="border-b border-secondary " id="">
+                    <p class="text-center text-6xl font-suez text-secondary my-6">$350</p>
+                    <div class="text-center py-6">
+                        <button
+                            class="w-full text-white text-lg py-2 px-6 rounded-md font-semibold hover:bg-secondary bg-transparent border-secondary border transition-colors duration-300">Get
+                            Your Custom Bot Now</button>
+                    </div>
+                    <ul class="mb-6 space-y-3 font-inter">
+                        <li>✔ E-commerce Bot</li>
+                        <li>✔ Custom Mini App</li>
+                        <li>✔ Payment Integration</li>
+                        <li>✔ Complex Api Integration</li>
+
+                        <li class="font-semibold text-2xl mt-6">Bonus *</li>
+                        <li>✔ Free Analysis Dashboard</li>
+                    </ul>
+                    <p class="text-center text-sm mb-6 pt-2">7 days delivery</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4 -->
+
+    <section class="xl:w-9/12 mx-auto p-6">
+        <h2 class="text-4xl font-suez text-white text-center p-4">Frequently Asked <span class="text-secondary"
+                id="">Questions</span></h2>
+        <div class="space-y-4 mt-4">
+            <div class="hover:bg-gray-800 rounded-md py-4">
+                <button onclick="toggleAnswer(1)"
+                    class="w-full text-left p-4 flex justify-between items-center text-2xl  transition-colors duration-300">
+                    <span class="font-semibold">I do not have a host, Do i need to get one?</span>
+                    <span class=""><svg id="arrow-1" width="30" height="30" viewBox="0 0 83 83" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M58.7917 48.4167L41.5 31.125L24.2084 48.4167" stroke="white" stroke-width="5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span> <!-- This is the up arrow -->
+                </button>
+                <div id="answer-1" class="answer px-4 text-xl leading-relaxed transition-height">
+                    <p>Standard Bots comes with 2 months free hosting (Terms and Conditions Apply). While Premium Bot
+                        and Enterprise Bots requires you have a host. We can also assist you in setting up a host. <br>
+                        However, if you have a website initially, we can set up your bot to run on your website hosting
+                        panel</p>
+                </div>
+            </div>
+
+            <div class="hover:bg-gray-800 rounded-md py-4">
+                <button onclick="toggleAnswer(2)"
+                    class="w-full text-left p-4 flex justify-between items-center text-2xl  transition-colors duration-300">
+                    <span class="font-semibold">Do you also develop crypto airdrop bots?</span>
+                    <span><svg id="arrow-2" width="30" height="30" viewBox="0 0 83 83" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M58.7917 48.4167L41.5 31.125L24.2084 48.4167" stroke="white" stroke-width="5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span> <!-- This is the up arrow -->
+                </button>
+                <div id="answer-2" class="answer px-4 text-xl leading-relaxed transition-height">
+                    <p>Yes, we develop all kinds of bots, Crypto Airdrop Bots, Mini Apps such as tapswap, hamster kombat
+                        etc. and custom bot based on your needs.</p>
+                </div>
+            </div>
+
+            <div class="hover:bg-gray-800 rounded-md py-4">
+                <button onclick="toggleAnswer(3)"
+                    class="w-full text-left p-4 flex justify-between items-center text-2xl  transition-colors duration-300">
+                    <span class="font-semibold">What do we do?</span>
+                    <span><svg id="arrow-3" width="30" height="30" viewBox="0 0 83 83" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M58.7917 48.4167L41.5 31.125L24.2084 48.4167" stroke="white" stroke-width="5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span> <!-- This is the up arrow -->
+                </button>
+                <div id="answer-3" class="answer px-4 text-xl leading-relaxed transition-height">
+                    <p>We provide a secure, cloud-based customer management platform with powerful analytics and
+                        integrations. Our intuitive interface makes it easy to customize and automate customer workflows
+                        and
+                        manage customers.</p>
+                </div>
+            </div>
+
+            <!-- Add more FAQ items here as needed -->
+        </div>
+    </section>
+
+    <script>
+        function toggleAnswer(index) {
+            const answer = document.getElementById(`answer-${index}`);
+            const button = answer.previousElementSibling;
+            const arrow = button.querySelector(`#arrow-${index}`).closest('span');
+
+            if (answer.style.maxHeight === '0px' || !answer.style.maxHeight) {
+                answer.style.maxHeight = `${answer.scrollHeight + 10}px`;
+                arrow.classList.remove('rotate-0');
+                arrow.classList.add('rotate-180');
+
+                // arrow.innerHTML = '&#9650;'; // Up arrow
+            } else {
+                answer.style.maxHeight = '0px';
+                arrow.classList.remove('rotate-180');
+                arrow.classList.add('rotate-0');
+
+                // arrow.innerHTML = '&#9660;'; // Down arrow
+            }
+        }
+    </script>
+
+
+    <div class="" id="">
+        <h2 class="text-4xl font-suez text-white text-center p-4">What our clients think <span class="text-secondary"
+                id="">about us</span></h2>
+        <div class="" id=""></div>
+    </div>
+
+    <!-- CTA button -->
+    <div class="flex justify-center py-7" id="">
+        <a href=""
+            class="px-4 md:px-7 lg:px-10 py-3 lg:py-4 bg-secondary rounded-md text-2xl lg:text-4xl rounded-mx-4 md: mr-8 font-bold"
+            id="">
+            <svg class="inline  w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16" viewBox="0 0 56 56" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_168_235)">
+                    <path
+                        d="M42.8739 30.3856C40.3569 30.3856 37.9976 29.3189 35.853 27.5831L36.3737 25.1256L36.392 25.0297C36.8648 22.4191 38.3311 18.0408 42.8761 18.0408C44.5131 18.042 46.0826 18.6928 47.2401 19.8503C48.3976 21.0078 49.0484 22.5774 49.0497 24.2143C49.0466 25.8509 48.3949 27.4195 47.2372 28.5763C46.0795 29.7331 44.5104 30.3837 42.8739 30.3856ZM42.8739 11.7942C37.0749 11.7942 32.5732 15.5604 30.7461 21.7659C27.9597 17.5772 25.8401 12.5479 24.6091 8.30889H18.3602V24.5523C18.359 26.095 17.7458 27.5742 16.6552 28.6652C15.5646 29.7563 14.0857 30.37 12.543 30.3718C11.0011 30.3688 9.52337 29.7545 8.43374 28.6636C7.34411 27.5727 6.73154 26.0942 6.73033 24.5523V8.30889H0.481445V24.5523C0.481445 31.2078 5.89441 36.6641 12.543 36.6641C19.1961 36.6641 24.6091 31.2078 24.6091 24.5523V21.8344C25.8173 24.3628 27.3087 26.9254 29.1176 29.191L25.2966 47.1726H31.6848L34.4552 34.1312C36.883 35.682 39.674 36.6641 42.8739 36.6641C49.7257 36.6641 55.2963 31.0639 55.2963 24.2166C55.2963 17.3648 49.7257 11.7942 42.8739 11.7942Z"
+                        fill="white" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_168_235">
+                        <rect width="54.8148" height="54.8148" fill="white" transform="translate(0.481445 0.333336)" />
+                    </clipPath>
+                </defs>
+            </svg>
+
+            Hire on Upwork
+        </a>
+        <a href=""
+            class="px-4 md:px-7 lg:px-10 py-3 lg:py-4 bg-fourth text-2xl md:text-3xl lg:text-4xl font-bold rounded-md mx-4 md:mxl-8"
+            id="">
+            <svg class="inline w-10 md:w-12 lg:w-16 h-10 md:h-12 lg:h-16" viewBox="0 0 51 50" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M38.7335 41.0128V41.0087L38.7705 40.9203L44.9351 9.84028V9.74162C44.9351 8.96667 44.6473 8.29039 44.0265 7.88545C43.4818 7.52984 42.8548 7.50517 42.415 7.53806C42.0055 7.57509 41.6015 7.65783 41.2104 7.78473C41.0436 7.83849 40.8791 7.89883 40.7171 7.96562L40.6903 7.97589L6.32147 21.4583L6.31119 21.4624C6.2067 21.4981 6.10443 21.5399 6.00491 21.5878C5.76048 21.6976 5.52597 21.8283 5.30397 21.9783C4.86202 22.2826 4.0213 22.9979 4.16314 24.1326C4.2803 25.074 4.9278 25.6701 5.36564 25.9805C5.62407 26.1616 5.90192 26.3133 6.19402 26.4327L6.2598 26.4615L6.28036 26.4677L6.29475 26.4738L12.3093 28.4986C12.2887 28.8747 12.3257 29.2591 12.4265 29.6394L15.4379 41.0662C15.6024 41.6891 15.9578 42.2448 16.4544 42.6553C16.9509 43.0658 17.5635 43.3104 18.2062 43.3549C18.8489 43.3993 19.4894 43.2413 20.0377 42.9031C20.586 42.5649 21.0146 42.0634 21.2633 41.4691L25.9664 36.4412L34.0427 42.6326L34.1578 42.6819C34.8916 43.0026 35.5761 43.1033 36.2031 43.019C36.83 42.9327 37.3275 42.6696 37.7016 42.3715C38.1343 42.0207 38.4791 41.5737 38.7088 41.0662L38.7252 41.0313L38.7314 41.019L38.7335 41.0128ZM15.407 28.8542C15.3737 28.7274 15.3816 28.5933 15.4297 28.4713C15.4777 28.3493 15.5634 28.2458 15.6742 28.1758L36.0674 15.2258C36.0674 15.2258 37.2678 14.4961 37.2247 15.2258C37.2247 15.2258 37.4385 15.3533 36.7951 15.9514C36.1866 16.5208 22.2602 29.9662 20.8501 31.327C20.7717 31.4031 20.7168 31.5002 20.6919 31.6066L18.4184 40.281L15.407 28.8542Z"
+                    fill="white" />
+            </svg>
+
+            Chat with Developer
+        </a>
+    </div>
+
+    <div class="pt-10" id="">
+        <p class="text-center text-xl" id="">Copyright &copy; 2024</p>
+    </div>
+</body>
+
+</html>
